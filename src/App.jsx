@@ -5,7 +5,7 @@ import Component from './Component'
 import React from 'react'
 
 function App() {
-  return <Component state={"123123"} />
+  return <Component person={{ name: "Alec", age: 26, favoriteFood: "Pizza"}}/>
 }
 
 export default App 
